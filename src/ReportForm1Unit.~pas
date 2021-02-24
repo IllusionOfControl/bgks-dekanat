@@ -1,0 +1,25 @@
+unit ReportForm1Unit;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, QuickRpt;
+
+type
+  TReportForm1 = class(TForm)
+    QuickRep1: TQuickRep;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ReportForm1: TReportForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.
